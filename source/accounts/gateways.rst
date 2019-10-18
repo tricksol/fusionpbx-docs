@@ -9,6 +9,12 @@ Gateways define the location and settings for other VoIP servers or Providers. A
 
 Gateways provide access into other voice networks. These can be voice providers or other systems that require SIP registration.  `Check out the Youtube video <https://youtu.be/YKOTACDYQ3A>`_ .
 
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/YKOTACDYQ3A?rel=0" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
+    </div>
+
 **In this example we will be using** `VoiceTel <http://tiny.cc/voicetel>`_ .  **Each Gateway provider has their own setings to use.**    
 
 .. image:: ../_static/images/fusionpbx_voicetel.jpg
@@ -89,4 +95,8 @@ Most settings in the Advanced Gateway Settings can remain the same.  Some carrie
 * **Ping:** If your server is behind NAT then the ping option can be used to keep the connection alive through the firewall. The ping interval is in seconds.
 * **Domain:** If the gateway will be used on a specific domain or global to all tenants.
 
+.. note::
+
+     To see which Gateway a call is using. 
+     Advanced > Command and in the switch command section type   show channels as xml   and then press the execute button. In the output that is returned, look for the string sofia/gateway/ and the gateway name. This is the gateway your call is using.
 

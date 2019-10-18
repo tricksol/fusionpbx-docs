@@ -2,7 +2,15 @@
 Extensions
 ************
 
-| The **Extensions** define the information needed for an endpoint such as a hard phone, soft phone or some other device to connect to the SIP server. The extension is the SIP username, the password is the secret used for authentication and the domain name servers to purposes it locates the server to register to and is the realm that determines which domain the endpoint is registering to.
+**Extensions** define the information needed for an endpoint such as a hard phone, soft phone or some other device to connect to the SIP server. The extension is the SIP username and the password is the secret used for authentication. The domain name servers (DNS) to purposes it, locates the server to register to and is the realm that determines which domain the endpoint is registering to.
+
+
+.. image:: ../_static/images/accounts/fusionpbx_accounts_extensions.jpg
+        :scale: 85%
+
+
+Basic Settings
+~~~~~~~~~~~~~~~~
 
 *  Extension 	
     Enter the alphanumeric extension. The default configuration allows 2 - 7 digit extensions.
@@ -59,8 +67,42 @@ Extensions
 *  Hold Music 	
     Select music or ring tones that will be used for music on hold for this extension.
 *  Context 	
-    The context is set by default to match the domain name or IP addres. It is usually correct by default and doesn't need to be changed in most cases.	
+    The context is set by default to match the domain name or IP addres. It is usually correct by default and doesn't need to be changed in most cases.
+
 *  Enabled
-    Whethe the extension is enabled or disabled.
+    Extension enabled or disabled.
 *  Description
     A description for the extension.
+
+
+Advanced Settings
+~~~~~~~~~~~~~~~~~~~
+
+Advanced settings in extensions. Be sure to know what and why you are changing these settings or you will risk causing issues for the extention.
+
+.. image:: ../_static/images/accounts/fusionpbx_accounts_extensions_advanced.jpg
+        :scale: 85%
+
+*  Auth ACL
+    Advanced auth acl uses.
+*  CIDR
+    Advanced cidr uses.
+*  SIP Force Contact
+    Choose whether to rewrite the contact port, or rewrite both the contact IP and port.
+*  SIP Force Expires
+    To prevent stale registrations SIP Force expires can override the client expire.
+*  MWI Account
+    MWI Account with user@domain of the voicemail to monitor.
+*  SIP Bypass Media
+    Choose whether to send the media stream point to point or in transparent proxy mode.
+*  Absolute Codec String
+    Absolute Codec String for the extension.
+*  Force ping
+    Use OPTIONS to detect if extension is reacheable.
+*  Domain
+    The domain the extension is currently saved on.
+*  Dial String
+    Location of the endpoint.
+    
+
+

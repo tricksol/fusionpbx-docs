@@ -2,15 +2,17 @@
 IVR Menu
 **********
 
-Welcome to the adding IVR section.  Here you will find how to add IVR's. `Click here for the youtube video`_
+Welcome to the adding IVR section.  Here you will find how to add and edit IVR's.
 
-.. image:: ../_static/images/fusionpbx_ivr.jpg
-        :scale: 85%
+.. raw:: html
 
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/Xnc9ExYKR8s?rel=0" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
+    </div>
 
+* `Click here for the youtube video`_
 * Click on **Apps** then **IVR Menu**
 * Click the Plus icon on the right
- 
 
 .. image:: ../_static/images/fusionpbx_ivr1.jpg
          :scale: 85%
@@ -40,7 +42,7 @@ You can get very creative with IVR's and are almost limitless in possibilities. 
 *  **Name** the IVR "IVR Main"
 *  **Extension** "200"
 *  **Greet Long** a phrase that was made from the **phrase section** under **apps**
-*  Number entry in **options** ,choose an extension for **Destination** and **descriptions** *ie* sales, billing, tech support, and after hours. **timeout** 3000 milliseconds
+*  Number entry in **options**, choose an extension for **Destination** and **descriptions** *ie* sales, billing, tech support, and after hours. **timeout** 3000 milliseconds
 *  Exit Action to the extension 109 (after hours)
 *  **Direct Dial** to False and Ring back to Default.
 

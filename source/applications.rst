@@ -1,8 +1,8 @@
-############
+*************
 Applications
-############
+*************
 
-In the **Applications** menu (Apps) section you will find Call Block, Call Broadcast, Call Center, Call Detail Records, Call Flows, Conference Center, Contacts, Fax Server, Follow Me, IVR Menu, Music on Hold, Operator Panel, Phrases, Queues, Recordings, Ring Groups, Time Conditions and Voicemail.
+In the **Applications** menu (Apps) section you will find Bridges, Call Block, Call Broadcast, Call Center, Call Detail Records, Call Flows, Conference Center, Conference Controls, Conference Profiles, Contacts, Fax Server, Follow Me, Grandstream Wave, IVR Menu, Music on Hold, Operator Panel, Phrases, Queues, Recordings, Ring Groups, Streams, Time Conditions and Voicemail.  Other apps can be added also.
 
 
 
@@ -27,7 +27,9 @@ In the **Applications** menu (Apps) section you will find Call Block, Call Broad
   applications/contacts.rst
   applications/fax_server.rst
   applications/follow_me.rst
+  applications/gs_wave.rst
   applications/ivr.rst
+  applications/operator_panel.rst
   applications/phrases.rst
   applications/music_on_hold.rst
   applications/queues.rst
@@ -36,4 +38,4 @@ In the **Applications** menu (Apps) section you will find Call Block, Call Broad
   applications/streams.rst
   applications/time_conditions.rst
   applications/voicemail.rst
-  applications/xmpp.rst
+  #applications/xmpp.rst

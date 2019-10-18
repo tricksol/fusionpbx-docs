@@ -3,34 +3,21 @@ Outbound Routes
 
 Route outbound calls to gateways, tdm, enum and more. When a call matches the conditions the call to outbound routes. `Check out the youtube video <https://youtu.be/rhyfCKLBI-Y>`_ .
 
-|
+.. raw:: html
 
-Configure Outbound Route. 
-
-
-Select **Dialplan** from the drop-down list and then click **Outbound Routes** . 
-
-.. image:: ../_static/images/fusionpbx_outbound.jpg
-        :scale: 85%
-
-Click the 
-
-.. image:: ../_static/images/plus.png
-        :scale: 85%
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/rhyfCKLBI-Y?rel=0" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 
+**Configuring an Outbound Route.** 
 
-button on the right. Enter the route information below and Click **Save** once entry is complete.
+* Select **Dialplan** from the drop-down list and then click **Outbound Routes** . 
 
-|
-|
+* Click the **plus** button on the right. Enter the route information below and Click **Save** once entry is complete.
 
 .. image:: ../_static/images/fusionpbx_outbound1.jpg
         :scale: 85%
-
-|
-
-
 
 |
 
